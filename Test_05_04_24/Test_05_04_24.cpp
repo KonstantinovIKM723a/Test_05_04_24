@@ -13,15 +13,14 @@ int main()
     int* pa = &a;
     int* pb = &a;
 
-    int m, n, k = 0;
+    int n, k = 0;
+
+    cout << "Введіть значення змінної n: ";
+    cin >> n;
 
     int* x = new int[n];
-    int* y = new int[m];
 
     srand(time(NULL));
-
-    cout << "Введіть значення змінної a: ";
-    cin >> n;
 
     for (int i = 0; i < n; i++) x[i] = rand() % 19 - 9;
 }
