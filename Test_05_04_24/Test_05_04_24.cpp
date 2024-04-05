@@ -21,6 +21,6 @@ int main()
     int* x = new int[n];
 
     srand(time(NULL));
-
+     
     for (int i = 0; i < n; i++) x[i] = rand() % 19 - 9;
 }
