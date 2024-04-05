@@ -7,7 +7,7 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    //
+    //Hello
     int a = 1;
 
     int* pa = &a;
